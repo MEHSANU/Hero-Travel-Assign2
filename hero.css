@@ -185,26 +185,140 @@
     width: 100%;
     height: 90%;
 }
+
 /* End of Tour-description */
 
 /* Start of destination-descrition */
-.Destination{
+.Destination {
     width: 36rem;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
 }
-.Destination-part{
+
+.Destination-part {
     text-align: center;
 
 }
 
 /* Start of destination of image */
 
+.Country-section {
+    display: grid;
+    gap: 4rem;
+}
+
+.row1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pic1 {
+    width: 573px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 1rem;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('./Images/Rectangle 5.png'), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.pic2 {
+    width: 573px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('./Images/Rectangle 9.png'), lightgray -101px -108.075px / 135.253% 172.05% no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.row2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-size: 100%;
+
+}
+
+.pic3 {
+    width: 374px;
+    height: 286px;
+    flex-shrink: 0;
+    border-radius: 1rem;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('./Images/Rectangle 6.png'), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.pic4 {
+    width: 474px;
+    height: 286px;
+    flex-shrink: 0;
+    border-radius: 1rem;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('./Images/Rectangle 7.png'),lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.pic5 {
+    width: 274px;
+    height: 286px;
+    flex-shrink: 0;
+    border-radius: 1rem;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('./Images/Rectangle 10.png'),lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.row3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-size: 100%;
+
+}
+
+.pic6 {
+    width: 473px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 1rem;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('./Images/Rectangle 12.png'), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.pic7 {
+    width: 673px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 1rem;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('./Images/Rectangle 11.png'), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#Country-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    color: #FFF;
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+
 /* Responsive area */
 @media screen and (min-width: 375px) {
-    .navbar1 .nabvar2 .form  .Tour-section{
+    .navbar1 .nabvar2 .form .Tour-section {
         flex-direction: column;
     }
 
