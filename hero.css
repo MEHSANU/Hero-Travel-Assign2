@@ -206,7 +206,7 @@ img {
 /* Start of destination of image */
 
 .row1 {
-    height: 18rem;
+    height: 17rem;
     display: flex;
     gap: 1.5rem;
     margin-bottom: 1.5rem;
@@ -275,7 +275,7 @@ img {
     width: 100%;
     border-radius: 1rem;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('./Images/Rectangle 11.png'), lightgray 50% / cover no-repeat;
-    /* background-size: 100%; */
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
@@ -414,14 +414,13 @@ section .para3 {
 
     .row1 {
         flex-direction: column;
-    }
-
-}
-
-@media screen and (min-width: 375px) and (max-width: 100%) {
-    .row1 {
-        flex-direction: column;
+        width: auto;
         height: auto;
+        
+    }
+    .row2{
+        flex-direction: column;
+        width: 100%;
         background-size: 100%;
     }
 
