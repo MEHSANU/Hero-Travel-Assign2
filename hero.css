@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-img {
+/* img {
     width: 100%;
     height: 100%;
-}
+} */
 
 * {
     background-size: 100%;
 }
 
 /* Navbar start*/
+.header-pic{
+    text-align: center;
+}
 .head {
     display: flex;
     align-items: center;
@@ -72,7 +75,7 @@ img {
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('./Images/Banner.png');
 }
 
-.banner-content {
+.banner-content {  
     display: block;
     justify-content: center;
     align-items: center;
@@ -184,7 +187,7 @@ img {
 .Tour-image img {
     border-radius: 3rem;
     width: 100%;
-    height: 90%;
+    height: 100%;
 }
 
 /* End of Tour-description */
@@ -282,7 +285,7 @@ img {
 #Country-name {
     display: flex;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 6.25rem;
     color: #FFF;
     font-size: 1.7rem;
     font-weight: 800;
@@ -339,7 +342,7 @@ img {
 .hotel1 .world {
     box-sizing: border-box;
     border: 1px solid rgba(41, 206, 246, 0.2);
-    border-radius: 16px;
+    border-radius: 1rem;
     padding: 1.3rem;
     background: rgba(41, 206, 246, 0.05);
 }
@@ -389,6 +392,138 @@ section .para3 {
     letter-spacing: 0%;
 }
 
+.subscriber-part {
+    width: 92%;
+    height: 39rem;
+    flex-shrink: 0;
+    padding-left: 6.25rem;
+    text-align: center;
+    border-radius: 1rem;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+#email-pic {
+    width: 8rem;
+    height: 8rem;
+    padding-left: 3.1rem;
+    flex-shrink: 0;
+    padding-top: 80px;
+}
+
+#sub-1 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-left: 6rem;
+}
+
+#sit-4 {
+    width: 47rem;
+    padding-left: 20rem;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    text-align: center;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+#input-1 {
+    width: 19rem;
+    height: 4rem;
+    flex-shrink: 0;
+    border-width: 0px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    padding-left: 0.75rem;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#sub-2 {
+    width: 11rem;
+    height: 3.8rem;
+    flex-shrink: 0;
+    border-width: 0px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.last {
+    width: 100%;
+    height: 38rem;
+    background: rgb(77, 159, 159);
+    margin-left: 0px;
+    border-radius: 1rem;
+}
+
+#big {
+    width: 22rem;
+    height: 5rem;
+    padding-top: 8rem;
+    padding-left: 9rem;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.5rem;
+}
+
+#call {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.5rem;
+    float: right;
+    margin: 0px;
+    padding-right: 2rem;
+}
+
+.footer-pic {
+    text-align: center;
+    padding-left: 15rem;
+    padding-top: 7rem;
+}
+
+#right {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 9rem;
+    padding-top: 9.5rem;
+}
+#unsub{
+    float: right;
+    padding-right: 9.5rem;
+}
+
+
+
 /* Responsive area */
 @media screen and (max-width: 375px) {
     .navbar1 .navbar2 .form .Tour-section {
@@ -404,6 +539,13 @@ section .para3 {
         font-size: 1.4rem;
     }
 
+
+    .Tour-image img {
+        border-radius: 3rem;
+        width: 100%;
+        height: 100%;
+    }
+
     .form button {
         flex-direction: column;
     }
@@ -416,9 +558,10 @@ section .para3 {
         flex-direction: column;
         width: auto;
         height: auto;
-        
+
     }
-    .row2{
+
+    .row2 {
         flex-direction: column;
         width: 100%;
         background-size: 100%;
